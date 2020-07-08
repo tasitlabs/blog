@@ -14,7 +14,7 @@ module.exports = {
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'posts', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/tasitlabs/',
           label: 'GitHub',
@@ -30,7 +30,7 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: 'blog/',
+              to: 'posts/',
             },
           ],
         },
@@ -56,7 +56,7 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: 'blog',
+              to: 'posts',
             },
             {
               label: 'GitHub',
@@ -74,6 +74,8 @@ module.exports = {
       {
         blog: {
           showReadingTime: true,
+          path: './blog',
+          routeBasePath: '/posts', // Set this value to '/'.
           editUrl:
             'https://github.com/tasitlabs/blog/edit/main',
         },
