@@ -1,17 +1,17 @@
 module.exports = {
   title: 'Tasit blog',
-  tagline: 'The blog for Tasit, a JavaScript SDK for building native mobile Ethereum dapps with React Native',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'A JavaScript / TypeScript SDK for building native mobile Ethereum dapps with React Native',
+  url: 'https://blog.tasit.io',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/favicon-32x32.png',
+  organizationName: 'tasitlabs', // Usually your GitHub org/user name.
+  projectName: 'blog', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Tasit',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Tasit logo',
+        src: 'img/TasitLogoSvg.svg',
       },
       links: [
         {to: 'posts', label: 'Blog', position: 'left'},
@@ -26,41 +26,45 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Writing',
+          title: "Tech",
           items: [
             {
-              label: 'Blog',
-              to: 'posts/',
+              label: "Docs",
+              href: "https://docs.tasit.io",
+            },
+            {
+              label: "Roadmap",
+              href: "https://github.com/orgs/tasitlabs/projects/1",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "Telegram",
+              href: "https://t.me/tasitproject",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: "Discord",
+              href: "https://discord.gg/bRp4QKq",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: "Feature requests",
+              href: "http://feedback.tasit.io/feature-requests",
             },
           ],
         },
         {
-          title: 'More',
+          title: "Social",
           items: [
             {
-              label: 'Blog',
-              to: 'posts',
+              label: "Twitter",
+              href: "https://twitter.com/TasitProject",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: "Medium",
+              href: "https://medium.com/tasit",
             },
           ],
         },
