@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{109:function(e){e.exports=JSON.parse('{"allTagsPath":"/posts/tags","slug":"ethereum","name":"ethereum","count":1,"permalink":"/posts/tags/ethereum"}')}}]);
